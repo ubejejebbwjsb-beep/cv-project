@@ -1,0 +1,132 @@
+/* --- تنسيق جسم الصفحة الأساسي --- */
+body {
+    color: #000000;
+    font-size: 60px;
+    background-color: rgb(18, 75, 80); 
+    direction: ltr;
+    border: dotted;
+}
+
+/* --- تنسيقات العناوين (Headings) --- */
+h1 {
+    color: white;
+    background-color: rgb(0, 0, 0);
+    border: dotted;
+    font-size: 80px;
+    width: fit-content;
+    margin: 20px auto; /* تم ضبط المارجن لتوسيط الاسم تماماً */
+}
+
+header h2 {
+    color: white;
+    background-color: rgb(0, 0, 0);
+    border: dotted;
+    font-size: 80px;
+    width: fit-content;
+    margin: 10px auto; /* لتوسيط كلمة CV تحت الاسم */
+}
+
+h2.p {
+    color: white;
+    background-color: rgb(0, 0, 0);
+    border: double;
+    font-size: 80px;
+    width: fit-content;
+    margin: 20px 0px; /* لتبدأ كلمة About Me من الجنب */
+} 
+
+/* --- تنسيقات النصوص والفقرات --- */
+p {
+    color: #000000;
+    font-size: 80px;
+    font-family: sans-serif;
+    font-style:italic;
+    background-color: rgb(238, 238, 238); /* تم تصحيح الكلمة من wight إلى white */
+    width: fit-content;
+}
+
+p.bio {
+    color: antiquewhite;
+    background-color: transparent; /* عشان تلغي الخلفية البيضاء بتاعة الـ p العادية وتظهر بشكل شيك */
+}
+
+/* --- تنسيقات الروابط (Links) --- */
+a {
+    color: rgb(21, 5, 73);
+    text-decoration: none; /* تم تعديل navy إلى none لأن navy ليست قيمة صالحة هنا */
+    font-size: 90px;
+}
+
+a:hover {
+    font-weight: bolder;
+    color: rgba(0, 0, 0, 0.526);
+}
+
+a:active {
+    color: black;
+}
+
+/* --- تنسيقات القوائم (Lists) --- */
+ul {
+    color: #0a0061;
+    list-style: square outside none;
+    font-size: 50px;
+}
+
+ul li {
+    border: 10px solid rgb(0, 0, 0);
+}
+
+ul.info-list {
+    color: bisque;
+}
+
+/* --- تنسيقات الـ Containers (Divs) --- */
+div {
+    background: #DDD;
+    color: rgb(0, 0, 0);
+    border-width: 8px 10px 8px 10px;
+    border-style: solid groove double solid;
+    border-color: #f10000 black red black; /* تم حذف القوس الزائد ( */
+    margin: 3px;
+    padding: 6px; 
+    font-size: 80px; /* تم إبقاء الحجم الكبير وحذف الـ 10px الزائدة */
+}
+
+div:hover {
+    font-weight: bolder;
+    color: red;
+}
+
+div:active {
+    color: black;
+}
+
+/* --- زر تسجيل الخروج (Exit Button) --- */
+div.yy {
+    color: rgb(204, 204, 204);
+    background-color: rgb(10, 77, 80);
+    margin: 3px;
+    padding: 6px; 
+    width: fit-content;
+}
+
+div.yy:hover {
+    font-weight: bolder;
+    color: rgba(212, 207, 207, 0.692);
+}
+
+div.yy:active {
+    color: darkolivegreen;
+}
+
+/* --- تنسيقات إضافية --- */
+.br {
+    color: red;
+    background-color: orangered;
+}
+
+form.ii {
+    font-size: 50px;
+    direction: ltr;
+}
